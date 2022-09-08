@@ -39,6 +39,15 @@ def janken(player_hand, cpu_hand, game_tiems)
   end
 end
 
+def result
+  player_win = 0
+  player_lose = 0
+  if 
+    player_win += 1
+    player_lose += 1
+    puts "#{player_win}勝#{player_lose}敗"
+  end
+end
 
 puts "何本勝負？(press 1 or 3 or 5)"
 game_tiems = gets.to_i
