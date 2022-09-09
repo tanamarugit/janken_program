@@ -63,3 +63,5 @@ puts "#{game_tiems}本勝負を選びました"
   puts janken(player_hand, cpu_hand, game_tiems)
   
 end
+
+result
